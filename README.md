@@ -5,7 +5,7 @@ Om de api te kunnen runnen moet de docker run command een port gemapped habben n
 
 Voorbeeld:
 ```bash
-sudo docker run -p 8080:3000 -v /home/daanp/nerf-turret/apiconfig.ini:/home/config.ini nerfturret:api/latest
+sudo docker run -p 8080:3000 -v /home/daanp/nerf-turret/apiconfig.ini:/home/config.ini nerfturret/api:latest
 ```
 
 ### Dependencies
