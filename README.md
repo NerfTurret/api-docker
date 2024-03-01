@@ -1,7 +1,7 @@
 # HTTP API (GoFiber) Dockerized
 ### De API om over HTTP met de Raspberry Pi van de turret te communiceren
 
-Om de api te kunnen runnen moet de docker run command een port gemapped habben naar 3000 in de Docker en een config file gemount hebben naar /home/config.ini in de Docker.
+Om de api te kunnen runnen moet de docker run command een port gemapped hebben naar 3000 in de container en een config file gemount hebben naar /home/config.ini in de container.
 
 Voorbeeld:
 ```bash
